@@ -22,13 +22,11 @@
         min-width: 200px;
         justify-content: space-between;
         align-items: center;
-
-        ul,
-        li {
-          margin: 0;
-          padding: 0;
-        }
       }
     }
   }
+}
+.auth-links {
+  display: flex;
+  gap: 10px;
 }
