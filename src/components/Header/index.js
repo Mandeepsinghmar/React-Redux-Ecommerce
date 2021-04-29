@@ -23,10 +23,13 @@ const Header = (props) => {
               </li>
             </ul>
           </nav> */}
-          <div className="callToActions">
-            <ul>
+          <div className="auth">
+            <ul className="auth-links">
               <li>
-                <Link to="/registration">REGISTER</Link>
+                <Link to="/registration">Register</Link>
+              </li>
+              <li>
+                <Link to="/login">Login</Link>
               </li>
             </ul>
           </div>

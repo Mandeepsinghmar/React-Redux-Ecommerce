@@ -5,6 +5,7 @@ import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 
 // pages
 import Homepage from "./pages/Homepage";
+import Login from "./pages/Login";
 
 import Registration from "./pages/Registration";
 
@@ -31,6 +32,14 @@ function App() {
             render={() => (
               <MainLayout>
                 <Registration />
+              </MainLayout>
+            )}
+          />
+          <Route
+            path="/login"
+            render={() => (
+              <MainLayout>
+                <Login />
               </MainLayout>
             )}
           />
